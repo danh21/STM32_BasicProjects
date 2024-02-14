@@ -6,4 +6,4 @@
     - Proteus
 
 # Source
-    - Led_HAL: blink led periodically using HAL lib
+    - Led_HAL: toggle led by button (polling) using HAL lib
