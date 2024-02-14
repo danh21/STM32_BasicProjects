@@ -525,3 +525,54 @@
 2024-02-14 11:46:40,642 [INFO] CADModel:164 - CPN selected for project levelSTM32F401VET6
 2024-02-14 11:46:40,642 [INFO] CADModel:113 - Register for checkConnection events
 2024-02-14 11:46:40,681 [INFO] OpenFileManager:327 - Restore cursor
+2024-02-14 12:08:48,398 [INFO] Gpio:272 - dependency for GPIO [RCC]
+2024-02-14 12:10:25,943 [INFO] Pin:2096 - value.trim() ;
+2024-02-14 12:10:25,943 [INFO] Pin:2097 - Pin value PD13
+2024-02-14 12:10:33,706 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 705660400 Bytes (902823936)
+2024-02-14 12:10:43,780 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 737473144 Bytes (902823936)
+2024-02-14 12:10:45,323 [INFO] ServerAccessManage:474 - Download File stm32cube_fw_f4_v1270.zip
+2024-02-14 12:13:16,507 [INFO] AnalyticsPlugin:363 - Accepted License(s): [FW.F4.1.27.0]
+2024-02-14 12:13:16,514 [INFO] FileExtend:239 - Unzip File : stm32cube_fw_f4_v1270.zip
+2024-02-14 12:13:16,514 [INFO] FileExtend:254 - Standard Zip Deflate
+2024-02-14 12:15:18,936 [INFO] ServerAccessManage:474 - Download File stm32cube_fw_f4_v1271.zip
+2024-02-14 12:15:46,621 [INFO] FileExtend:239 - Unzip File : stm32cube_fw_f4_v1271.zip
+2024-02-14 12:15:46,622 [INFO] FileExtend:254 - Standard Zip Deflate
+2024-02-14 12:15:48,516 [INFO] LoadServerPackagesThread:190 - End of LoadServerPackages Thread
+2024-02-14 12:15:48,789 [INFO] ThirdPartyModel:294 - Start build external matchings
+2024-02-14 12:15:48,797 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 841837728 Bytes (1073741824)
+2024-02-14 12:15:49,895 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-14 12:15:49,895 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-14 12:15:49,895 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-14 12:15:49,898 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-02-14 12:15:50,654 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\MXTmpFiles\license.tmp_save
+2024-02-14 12:15:51,362 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\MXTmpFiles\license.tmp
+2024-02-14 12:15:51,480 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\MXTmpFiles\gpio.tmp_save
+2024-02-14 12:15:51,891 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\MXTmpFiles\gpio.tmp
+2024-02-14 12:15:51,947 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Src\stm32f4xx_it.c_save
+2024-02-14 12:15:52,583 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Src\stm32f4xx_it.c
+2024-02-14 12:15:52,644 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-02-14 12:15:52,820 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Inc\stm32f4xx_it.h
+2024-02-14 12:15:52,867 [INFO] ThirdPartyModel:310 - End build external matchings
+2024-02-14 12:15:53,030 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2024-02-14 12:15:53,048 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-02-14 12:15:53,245 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-02-14 12:15:53,261 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\MXTmpFiles\system.tmp_save
+2024-02-14 12:15:53,374 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\MXTmpFiles\system.tmp
+2024-02-14 12:15:53,422 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-02-14 12:15:53,591 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-02-14 12:15:53,818 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Inc\main.h_save
+2024-02-14 12:15:54,518 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Inc\main.h
+2024-02-14 12:15:54,566 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Src\main.c_save
+2024-02-14 12:15:54,911 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\Core\Src\main.c
+2024-02-14 12:15:56,293 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 428mS.
+2024-02-14 12:15:56,314 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-02-14 12:15:56,949 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-02-14 12:15:56,974 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2024-02-14 12:15:56,998 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2024-02-14 12:15:57,017 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2024-02-14 12:15:57,043 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2024-02-14 12:15:57,076 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2024-02-14 12:15:57,105 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2024-02-14 12:16:02,098 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 5784mS.
+2024-02-14 12:16:02,099 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-02-14 12:16:02,101 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.

@@ -118,3 +118,39 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\cd\STM32\Proj
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-02-14 11:46:19.031
 !MESSAGE Indexed 'Led_HAL' (19 sources, 105 headers) in 3.69 sec: 8,035 declarations; 29,445 references; 6 unresolved inclusions; 703 syntax errors; 952 unresolved names (2.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-14 21:39:58.155
+!MESSAGE Indexed 'Led_reg' (3 sources, 53 headers) in 0.249 sec: 1,960 declarations; 2,841 references; 1 unresolved inclusions; 1 syntax errors; 10 unresolved names (0.21%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-02-14 21:40:34.090
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-02-14 21:40:34.090
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-02-14 21:40:34.090
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\Led_reg overlaps the location of another project: 'Led_reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-02-14 21:40:34.091
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-14 22:29:56.611
+!MESSAGE Indexed 'Led_reg' (3 sources, 61 headers) in 0.782 sec: 3,042 declarations; 5,013 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.025%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-02-14 22:37:34.532
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-02-14 22:37:34.533
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-02-14 22:37:34.533
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\Led_reg overlaps the location of another project: 'Led_reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-02-14 22:37:34.534
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-02-14 22:38:10.552
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-02-14 22:38:10.552
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-02-14 22:38:10.552
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\Led_reg overlaps the location of another project: 'Led_reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-02-14 22:38:10.553
+!MESSAGE Project is null
