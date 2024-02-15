@@ -22,3 +22,6 @@
         - Simulation: includes proteus file
         - Src: includes source code (main.c, ...)
         *** Right-click project in workspace and choose Properties -> C/C++ Build -> Settings -> MCU GCC Compiler -> Include paths -> Modify paths based on project using HAL in current workspace 
+
+# Reference
+    https://deviot.vn/tutorials/stm32f4.62153513/lap-trinh-timer-che-do-counter-de-tao-delay.58829201
