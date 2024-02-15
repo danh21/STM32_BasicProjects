@@ -3,8 +3,8 @@
 
 
 
-#define led_on 	GPIOD->ODR |= (1<<13)
-#define led_off	GPIOD->ODR &= ~(1<<13);
+#define led(x)_on 	GPIOD->ODR |= (1<<x)
+#define led(x)_off 	GPIOD->ODR &= ~(1<<x);
 
 
 
@@ -22,9 +22,9 @@ int main()
 	while(1)
 	{
 		// use ODR
-		led_on;
+		led(13)_on;
 		delay(5000);
-		led_off;
+		led(13)_off;
 		delay(5000);
 
 		// use BSRR

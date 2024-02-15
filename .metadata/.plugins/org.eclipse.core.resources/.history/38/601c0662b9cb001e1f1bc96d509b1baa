@@ -3,11 +3,6 @@
 
 
 
-#define led_on 	GPIOD->ODR |= (1<<13)
-#define led_off	GPIOD->ODR &= ~(1<<13);
-
-
-
 void GPIO_init(void);
 void delay(int a);
 void SystemClock_config();
@@ -22,9 +17,9 @@ int main()
 	while(1)
 	{
 		// use ODR
-		led_on;
+		GPIOD->ODR |= (1<<13);
 		delay(5000);
-		led_off;
+		GPIOD->ODR &= ~(1<<13);
 		delay(5000);
 
 		// use BSRR

@@ -572,31 +572,31 @@ LOAD d:/phan_mem/stm32/stm32cubeide_1.11.0/stm32cubeide/plugins/com.st.stm32cube
  .debug_ranges  0x0000000000000000       0x28 ./Src/main.o
  .debug_ranges  0x0000000000000028       0x20 ./Startup/startup_stm32f401vetx.o
 
-.debug_macro    0x0000000000000000     0xda81
- .debug_macro   0x0000000000000000       0xbf ./Src/main.o
- .debug_macro   0x00000000000000bf      0xa7e ./Src/main.o
- .debug_macro   0x0000000000000b3d       0x22 ./Src/main.o
- .debug_macro   0x0000000000000b5f       0x8e ./Src/main.o
- .debug_macro   0x0000000000000bed       0x51 ./Src/main.o
- .debug_macro   0x0000000000000c3e      0x103 ./Src/main.o
- .debug_macro   0x0000000000000d41       0x6a ./Src/main.o
- .debug_macro   0x0000000000000dab      0x1df ./Src/main.o
- .debug_macro   0x0000000000000f8a       0x28 ./Src/main.o
- .debug_macro   0x0000000000000fb2       0x1c ./Src/main.o
- .debug_macro   0x0000000000000fce       0x22 ./Src/main.o
- .debug_macro   0x0000000000000ff0       0xd9 ./Src/main.o
- .debug_macro   0x00000000000010c9     0x102d ./Src/main.o
- .debug_macro   0x00000000000020f6      0x11f ./Src/main.o
- .debug_macro   0x0000000000002215     0xb86c ./Src/main.o
+.debug_macro    0x0000000000000000     0xda8d
+ .debug_macro   0x0000000000000000       0xcb ./Src/main.o
+ .debug_macro   0x00000000000000cb      0xa7e ./Src/main.o
+ .debug_macro   0x0000000000000b49       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000b6b       0x8e ./Src/main.o
+ .debug_macro   0x0000000000000bf9       0x51 ./Src/main.o
+ .debug_macro   0x0000000000000c4a      0x103 ./Src/main.o
+ .debug_macro   0x0000000000000d4d       0x6a ./Src/main.o
+ .debug_macro   0x0000000000000db7      0x1df ./Src/main.o
+ .debug_macro   0x0000000000000f96       0x28 ./Src/main.o
+ .debug_macro   0x0000000000000fbe       0x1c ./Src/main.o
+ .debug_macro   0x0000000000000fda       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000ffc       0xd9 ./Src/main.o
+ .debug_macro   0x00000000000010d5     0x102d ./Src/main.o
+ .debug_macro   0x0000000000002102      0x11f ./Src/main.o
+ .debug_macro   0x0000000000002221     0xb86c ./Src/main.o
 
-.debug_line     0x0000000000000000      0x5da
- .debug_line    0x0000000000000000      0x556 ./Src/main.o
- .debug_line    0x0000000000000556       0x84 ./Startup/startup_stm32f401vetx.o
+.debug_line     0x0000000000000000      0x5d2
+ .debug_line    0x0000000000000000      0x54e ./Src/main.o
+ .debug_line    0x000000000000054e       0x84 ./Startup/startup_stm32f401vetx.o
 
-.debug_str      0x0000000000000000    0x4eca0
- .debug_str     0x0000000000000000    0x4ec6f ./Src/main.o
-                                      0x4edd8 (size before relaxing)
- .debug_str     0x000000000004ec6f       0x31 ./Startup/startup_stm32f401vetx.o
+.debug_str      0x0000000000000000    0x4ecdd
+ .debug_str     0x0000000000000000    0x4ecac ./Src/main.o
+                                      0x4ee15 (size before relaxing)
+ .debug_str     0x000000000004ecac       0x31 ./Startup/startup_stm32f401vetx.o
                                          0x67 (size before relaxing)
 
 .comment        0x0000000000000000       0x50

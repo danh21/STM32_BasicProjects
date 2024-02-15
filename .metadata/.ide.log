@@ -576,3 +576,10 @@
 2024-02-14 12:16:02,098 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 5784mS.
 2024-02-14 12:16:02,099 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
 2024-02-14 12:16:02,101 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-02-14 21:41:07,149 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_External_tool_project_builders_migration_2 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2024-02-14 21:41:07,154 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_Prompt_before_migrating_3 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2024-02-14 21:41:07,156 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Warning: NLS missing message: ExternalToolsPreferencePage_1 in: org.eclipse.ui.externaltools.internal.ui.ExternalToolsUIMessages
+2024-02-14 22:58:56,275 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2024-02-14 22:58:57,590 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
+2024-02-14 22:58:57,634 [INFO] WebAppUi:462 - Profiles folder deleted
+2024-02-14 22:58:58,508 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
