@@ -3,13 +3,8 @@
 
 
 
-#define led_on 		GPIOD->ODR |= 1<<13
-#define led_off		GPIOD->ODR &= ~(1<<13)
-#define led_is_off	(GPIOD->ODR & 1<<13) == 0
-
-#define toggle_led 					led_is_off ? led_on : (led_off)
-#define button_is_pressed			(GPIOA->IDR & 1) == 1
-#define waiting_button_is_released 	while (button_is_pressed)
+#define led_on 	GPIOD->ODR |= (1<<13)
+#define led_off	GPIOD->ODR &= ~(1<<13);
 
 
 
@@ -26,10 +21,17 @@ int main()
 
 	while(1)
 	{
-		if (button_is_pressed) {
-			waiting_button_is_released;
-			toggle_led;
-		}
+		// use ODR
+		led_on;
+		delay(5000);
+		led_off;
+		delay(5000);
+
+		// use BSRR
+		/* GPIOD->BSRR |= (1<<13);
+		delay(5000);
+		GPIOD->BSRR |= (1<<29);
+		delay(5000); */
 	}
 }
 

@@ -7,7 +7,7 @@
 
 # Projects
     - Led_HAL: toggle led by button (polling) using HAL lib
-    - Led_reg: blink led by periodically using register
+    - Led_reg: toggle led by button (polling) using register
 
 # Common source
     Projects using HAL library:

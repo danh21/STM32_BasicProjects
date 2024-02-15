@@ -3,11 +3,10 @@
 
 
 
-#define led_on 		GPIOD->ODR |= 1<<13
-#define led_off		GPIOD->ODR &= ~(1<<13)
-#define led_is_off	(GPIOD->ODR & 1<<13) == 0
+#define led_on 	GPIOD->ODR |= (1<<13)
+#define led_off	GPIOD->ODR &= ~(1<<13)
 
-#define toggle_led 					led_is_off ? led_on : (led_off)
+#define toggle_led 					((GPIOD->ODR & (1<<13)) == 0) ? (GPIOD->ODR |= (1<<13)) : (GPIOD->ODR &= ~(1<<13))
 #define button_is_pressed			(GPIOA->IDR & 1) == 1
 #define waiting_button_is_released 	while (button_is_pressed)
 
