@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Led_HAL2/Led_HAL.ioc&apos; to &apos;Led_HAL2.ioc&apos;" description="Rename resource &apos;Led_HAL.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Led_HAL.ioc" name="Led_HAL2.ioc" stamp="1708007795006" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Led_HAL2/Core/Src/main.c&apos; to &apos;main2.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/main.c" name="main2.c" stamp="1708010781394" updateReferences="true"/>
+</session>

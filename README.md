@@ -6,8 +6,8 @@
     - Proteus
 
 # Projects
-    - Led_HAL: toggle led by button (polling) using HAL lib
-    - Led_reg: toggle led by button (polling) using register
+    - Led_HAL: blink led by periodically using interrupt timer
+    - Led_reg: toggle led by button (polling)
 
 # Common source
     Projects using HAL library:

@@ -31,7 +31,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define yourDelay 1200
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -58,12 +57,15 @@ static void MX_TIM2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint16_t cnt = 0;
+//void delay_ms(int ms)
+//{
+//	__HAL_TIM_SET_COUNTER(&htim1, 0);			 // set the counter value to 0
+//	while (__HAL_TIM_GET_COUNTER(&htim1) < ms);	 // wait for the counter to reach threshold
+//}
 
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	if (htim->Instance == TIM2) {
-		if (++cnt == yourDelay) {
+		if (cnt++ == 1000) {
 			cnt = 0;
 			toggle_led;
 		}
@@ -101,7 +103,7 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start_IT(&htim2);		//start timer interrupt
+  HAL_TIM_Base_Start_IT(&htim2);		//start timer
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,17 +112,13 @@ int main(void)
   while (1)
   {
 	  /*
-	   * TARGET: 1 ms = 1 interrupt time
-	   * T_event = (PSC + 1) * (ARR + 1) / F_system = (99 + 1) * (159 + 1) / 16,000,000 = 0.001 s
+	   * TARGET: 1 clock = 1 ms
+	   * F_timer = F_system / (Prescaler + 1) = HCLK / (PSC + 1) = 16,000,000 / (15,999 + 1) = 1000 Hz
+	   * T_timer = 1 / F_timer = 1 / 1000 = 1 ms
 	   * */
 
-	  /*
-	   * SETTING:
-	   * 	PSC: 99
-	   * 	ARR: 159
-	   * 	NVIC -> TIM2 global int
-	   * */
-
+//	  toggle_led;
+//	  delay_ms(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
