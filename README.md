@@ -7,7 +7,7 @@
 
 # Projects
     - Led_HAL: blink led by periodically using interrupt timer
-    - Led_reg: toggle led by button (polling)
+    - Led_reg: blink led by periodically using counter timer
 
 # Common source
     Projects using HAL library:

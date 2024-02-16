@@ -1,20 +1,20 @@
-22:49:04 **** Incremental Build of configuration Debug for project Led_HAL ****
+21:46:44 **** Incremental Build of configuration Debug for project Led_reg ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Led_HAL.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\Led_HAL\STM32F401VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Led_HAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Led_HAL.elf
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F401VETx -c -I../Inc -I"D:/cd/STM32/Project/STM32_BasicProjects/Led_HAL/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/cd/STM32/Project/STM32_BasicProjects/Led_HAL/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Led_reg.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\Led_reg\STM32F401VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Led_reg.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Led_reg.elf
  
-arm-none-eabi-size   Led_HAL.elf 
-arm-none-eabi-objdump -h -S  Led_HAL.elf  > "Led_HAL.list"
-arm-none-eabi-objcopy  -O ihex  Led_HAL.elf  "Led_HAL.hex"
-arm-none-eabi-objcopy  -O binary  Led_HAL.elf  "Led_HAL.bin"
+arm-none-eabi-size   Led_reg.elf 
+arm-none-eabi-objdump -h -S  Led_reg.elf  > "Led_reg.list"
+arm-none-eabi-objcopy  -O ihex  Led_reg.elf  "Led_reg.hex"
+arm-none-eabi-objcopy  -O binary  Led_reg.elf  "Led_reg.bin"
    text	   data	    bss	    dec	    hex	filename
-   8372	     20	   1644	  10036	   2734	Led_HAL.elf
+   1032	      8	   1568	   2608	    a30	Led_reg.elf
 Finished building: default.size.stdout
  
-Finished building: Led_HAL.hex
-Finished building: Led_HAL.bin
+Finished building: Led_reg.hex
+Finished building: Led_reg.bin
+Finished building: Led_reg.list
  
  
-Finished building: Led_HAL.list
  
