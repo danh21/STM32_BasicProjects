@@ -294,3 +294,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-16 20:26:19.819
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-02-17 10:28:05.895 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-17 10:30:41.274
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-17 10:30:41.356
+!MESSAGE Log4j initialized with config file D:\cd\STM32\Project\STM32_BasicProjects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-17 10:30:48.277
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 19:43:01.637
+!MESSAGE Indexed 'UART_HAL' (22 sources, 113 headers) in 3.87 sec: 9,575 declarations; 38,118 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.31%)

@@ -4,10 +4,13 @@
 # Software
     - STM32CubeIDE
     - Proteus
+    - Virtual Serial Port Driver
+    - Hercules
 
 # Projects
     - Led_HAL: blink led by periodically using interrupt timer
     - Led_reg: blink led by periodically using counter timer
+    - UART_HAL: interaction between uC and Hercules by UART protocol, request user enter password
 
 # Common source
     Projects using HAL library:
