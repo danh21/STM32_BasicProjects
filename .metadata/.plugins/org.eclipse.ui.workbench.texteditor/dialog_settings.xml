@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="result"/>
+		<item key="selection" value="USART1_sendData"/>
 		<item key="wrap" value="false"/>
-		<item key="casesensitive" value="true"/>
+		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="USART1_sendString"/>
+			<item value="Timer_init"/>
+			<item value="UART_init"/>
+			<item value="USART_init"/>
+			<item value="GPIO"/>
+			<item value="USART1"/>
+			<item value="RCC"/>
+			<item value="UART1"/>
 			<item value="res"/>
 		</list>
 		<list key="replacehistory">
+			<item value="USART1_sendData"/>
+			<item value="Timer1_init"/>
+			<item value="USART1_init"/>
 			<item value="result"/>
 		</list>
 	</section>

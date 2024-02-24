@@ -1,0 +1,22 @@
+20:40:05 **** Incremental Build of configuration Debug for project ADC_reg ****
+make -j8 all 
+arm-none-eabi-gcc -o "ADC_reg.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\ADC_reg\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_reg.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_reg.elf
+ 
+arm-none-eabi-size   ADC_reg.elf 
+arm-none-eabi-objdump -h -S  ADC_reg.elf  > "ADC_reg.list"
+arm-none-eabi-objcopy  -O ihex  ADC_reg.elf  "ADC_reg.hex"
+arm-none-eabi-objcopy  -O binary  ADC_reg.elf  "ADC_reg.bin"
+   text	   data	    bss	    dec	    hex	filename
+  16156	    472	   1592	  18220	   472c	ADC_reg.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_reg.list
+ 
+Finished building: ADC_reg.hex
+Finished building: ADC_reg.bin
+ 
+ 
+
+20:40:06 Build Finished. 0 errors, 0 warnings. (took 652ms)
+

@@ -11,6 +11,7 @@
     - Led_HAL: blink led by periodically using interrupt timer
     - Led_reg: blink led by periodically using counter timer
     - UART_HAL: interaction between uC and Hercules by UART protocol, request user enter password
+    - UART_Reg: transmit data to virtual terminal by UART protocol
     - ADC_HAL: based on reference voltage, read ADC value and transmit to terminal by UART
 
 # Common source
