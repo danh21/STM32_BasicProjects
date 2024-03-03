@@ -1012,3 +1012,38 @@ java.nio.file.FileSystemException: D:\cd\STM32\Project\STM32_BasicProjects\UART_
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-02-24 11:54:47.361
 !MESSAGE Indexed 'UART_Reg' (3 sources, 61 headers) in 1.45 sec: 3,041 declarations; 5,136 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.024%)
+!SESSION 2024-03-03 21:44:35.395 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-03 21:47:44.686
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-03 21:47:44.788
+!MESSAGE Log4j initialized with config file D:\cd\STM32\Project\STM32_BasicProjects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-03 21:47:54.853
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-03 22:01:22.477
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-03 22:01:22.479
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-03 22:01:22.479
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\Led_reg overlaps the location of another project: 'Led_reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-03 22:01:22.479
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-03 22:11:45.748
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-03 22:11:45.749
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-03 22:11:45.749
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\Led_reg overlaps the location of another project: 'Led_reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-03 22:11:45.749
+!MESSAGE Project is null

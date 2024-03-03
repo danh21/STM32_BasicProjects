@@ -43,3 +43,7 @@ void GPIO_init(void)
 
 	GPIOD->OTYPER &= ~(1<<13);	// Output push-pull (reset state)
 }
+
+
+
+
