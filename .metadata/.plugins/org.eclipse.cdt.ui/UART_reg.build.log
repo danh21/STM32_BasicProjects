@@ -1,4 +1,4 @@
-12:53:54 **** Incremental Build of configuration Debug for project UART_Reg ****
+22:32:54 **** Incremental Build of configuration Debug for project UART_Reg ****
 make -j8 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F401VETx -c -I../Inc -I"D:/cd/STM32/Project/STM32_BasicProjects/Led_HAL/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/cd/STM32/Project/STM32_BasicProjects/Led_HAL/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
 arm-none-eabi-gcc -o "UART_Reg.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\UART_Reg\STM32F401VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Reg.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -9,15 +9,15 @@ arm-none-eabi-objdump -h -S  UART_Reg.elf  > "UART_Reg.list"
 arm-none-eabi-objcopy  -O ihex  UART_Reg.elf  "UART_Reg.hex"
 arm-none-eabi-objcopy  -O binary  UART_Reg.elf  "UART_Reg.bin"
    text	   data	    bss	    dec	    hex	filename
-   1216	      8	   1568	   2792	    ae8	UART_Reg.elf
+   1236	      8	   1568	   2812	    afc	UART_Reg.elf
 Finished building: default.size.stdout
  
-Finished building: UART_Reg.hex
 Finished building: UART_Reg.bin
+Finished building: UART_Reg.hex
+ 
+ 
 Finished building: UART_Reg.list
  
- 
- 
 
-12:53:55 Build Finished. 0 errors, 0 warnings. (took 407ms)
+22:32:55 Build Finished. 0 errors, 0 warnings. (took 632ms)
 

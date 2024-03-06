@@ -6,10 +6,6 @@
 
 
 
-void GPIO_init();
-
-
-
 int main()
 {
 	SystemClock_config();
@@ -26,7 +22,6 @@ int main()
 
 
 
-/* Initializing GPIO */
 void GPIO_init(void)
 {
 	RCC->AHB1ENR |= (1<<0);		// IO port A clock enable

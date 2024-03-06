@@ -1047,3 +1047,53 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-03 22:11:45.749
 !MESSAGE Project is null
+!SESSION 2024-03-04 22:45:27.598 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-04 22:45:43.339
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-04 22:45:43.425
+!MESSAGE Log4j initialized with config file D:\cd\STM32\Project\STM32_BasicProjects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-04 22:45:52.036
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-03-06 21:33:20.892 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-06 21:33:48.036
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-06 21:33:48.139
+!MESSAGE Log4j initialized with config file D:\cd\STM32\Project\STM32_BasicProjects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-06 21:33:58.562
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-06 21:38:41.316
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-06 21:38:41.316
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-06 21:38:41.316
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\UART_Reg overlaps the location of another project: 'UART_Reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-06 21:38:41.317
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-06 22:09:02.865
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-06 22:09:02.865
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-06 22:09:02.865
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\UART_Reg overlaps the location of another project: 'UART_Reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-06 22:09:02.866
+!MESSAGE Project is null
