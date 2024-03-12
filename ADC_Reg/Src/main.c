@@ -8,8 +8,6 @@
 
 
 
-#define Vref 5		// Volt
-
 uint32_t ADC1_data;
 float Voltage = 0;
 char result[20];
@@ -30,15 +28,11 @@ int main()
 
 	while(1)
 	{
-		ADC1_Start_Polling();
+		ADC1_Start_Polling(1);
 		ADC1_data = ADC1_Read();
-//		Voltage = ADC1_data * Vref / max_ADC1;
 		sprintf(result, "ADC value = %d\r\n", ADC1_data);
 		USART1_sendData(result);
 		delay_ms(1000);
-//		printf("The value of ADC is %d \n", ADC_data);
-		//printf("the value of ADC is\n");
-		//printf("the value of ADC is %f 'C \n",Degree);
 	}
 }
 
@@ -47,7 +41,7 @@ int main()
 /* Initializing GPIO */
 void GPIO_init(void)
 {
-	RCC->AHB1ENR |= (1<<0);				// IO port A clock enable
+	RCC->AHB1ENR |= (1<<0);				// enable GPIOA clock
 
 	GPIOA->MODER |= (2<<18) | (3<<2);	// alternate function for PA9, analog for PA1
 	GPIOA->OSPEEDR |= (2<<18) | (2<<2);	// high speed for PA1, PA9

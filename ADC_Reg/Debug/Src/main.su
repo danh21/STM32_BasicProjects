@@ -3,9 +3,9 @@
 ../Inc/Timer.h:45:6:delay_ms	16	static
 ../Inc/USART.h:19:6:USART1_init	24	static
 ../Inc/USART.h:45:6:USART1_sendData	16	static
-../Inc/ADC.h:17:6:ADC1_Init	4	static
-../Inc/ADC.h:55:6:ADC1_Start_Polling	4	static
-../Inc/ADC.h:67:10:ADC1_Read	16	static
-../Inc/ADC.h:76:6:ADC1_End	4	static
-../Src/main.c:23:5:main	8	static
-../Src/main.c:48:6:GPIO_init	4	static
+../Inc/ADC.h:13:6:ADC1_Init	4	static
+../Inc/ADC.h:32:6:ADC1_Start_Polling	16	static
+../Inc/ADC.h:41:10:ADC1_Read	4	static
+../Inc/ADC.h:48:6:ADC1_End	4	static
+../Src/main.c:21:5:main	8	static
+../Src/main.c:42:6:GPIO_init	4	static

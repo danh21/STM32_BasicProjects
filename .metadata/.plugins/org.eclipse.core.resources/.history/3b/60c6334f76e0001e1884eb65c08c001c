@@ -1,0 +1,64 @@
+/*
+ * SystemClock.h
+ *
+ *  Created on: Mar 3, 2024
+ *      Author: danh21
+ */
+
+#ifndef SYSTEMCLOCK_H_
+#define SYSTEMCLOCK_H_
+
+
+
+/*
+ * Initialize system clock
+ * */
+void SystemClock_config()
+{
+//	RCC->CR |= RCC_CR_HSION;				// enable HSI
+//	while (!(RCC->CR & RCC_CR_HSIRDY));		// see that HSI is ready or not
+//
+//	// Power regulator
+//	PWR->CR |= (1<<15);
+//
+//	// Flash latency setup
+//	FLASH->ACR |= FLASH_ACR_DCEN | FLASH_ACR_ICEN | FLASH_ACR_PRFTEN | FLASH_ACR_LATENCY_5WS;
+//
+//	// Clock configuration register for setting
+//	RCC->CFGR |= RCC_CFGR_SW_HSI;
+//	while ( (RCC->CFGR & (1<<2)) || (RCC->CFGR & (1<<3)) );
+
+
+
+
+	//enable HSI
+		RCC->CR |= 1<<0;
+		//RCC->CR |= RCC_CR_HSION;
+
+		//see that HSI is ready or not
+		while (!(RCC->CR & (1<<1)));
+		//while(!(RCC->CR & RCC_CR_HSIRDY));
+
+		//For channeling the power to APB1 bus
+		RCC->APB1ENR |= 1<<3;										//Channelize to GPIO D PORT
+		//RCC->APB1ENR |=RCC_AHB1ENR_GPIODEN;
+
+		//Power regulator
+		PWR->CR |= (1<<14);
+		//PWR->CR |= PWR_CR_VOS;
+
+		//Flash latency setup
+		FLASH->ACR |= (1<<8) | (1<<10) | (1<<9) | (5<<0);
+		//FLASH->ACR |= FLASH_ACR_DCEN | FLASH_ACR_ICEN | FLASH_ACR_PRFTEN | FLASH_ACR_LATENCY_5WS;
+
+		//Clock configuration register for setting
+		//RCC->CFGR |= RCC_CFGR_SW_HSI;
+		RCC->CFGR |= (1<<0) | (1<<1);								// not allowed System clock switch
+
+	//	while ( (RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_HSI );	// HSI oscillator used as system clock
+		while ( !(RCC->CFGR & ~(1<<2)) & !(RCC->CFGR & ~(1<<3)) );
+}
+
+
+
+#endif /* SYSTEMCLOCK_H_ */
