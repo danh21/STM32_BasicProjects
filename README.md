@@ -13,6 +13,7 @@
     - UART_HAL: interaction between uC and Hercules by UART protocol, request user enter password
     - UART_Reg: transmit data to virtual terminal by UART protocol
     - ADC_HAL: based on reference voltage, read ADC value and transmit to terminal by UART
+    - ADC_Reg: based on reference voltage, read ADC value and transmit to terminal by UART
 
 # Common source
     Projects using HAL library:

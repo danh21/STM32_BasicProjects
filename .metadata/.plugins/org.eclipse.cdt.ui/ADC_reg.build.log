@@ -1,22 +1,30 @@
-20:40:05 **** Incremental Build of configuration Debug for project ADC_reg ****
+23:19:05 **** Incremental Build of configuration Debug for project ADC_Reg ****
 make -j8 all 
-arm-none-eabi-gcc -o "ADC_reg.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\ADC_reg\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_reg.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: ADC_reg.elf
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F401VETx -c -I../Inc -I"D:/cd/STM32/Project/STM32_BasicProjects/Led_HAL/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/cd/STM32/Project/STM32_BasicProjects/Led_HAL/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:36:33: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   36 |   sprintf(result, "ADC value = %d\r\n", ADC1_data);
+      |                                ~^       ~~~~~~~~~
+      |                                 |       |
+      |                                 int     uint32_t {aka long unsigned int}
+      |                                %ld
+arm-none-eabi-gcc -o "ADC_Reg.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\ADC_Reg\STM32F401VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Reg.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Reg.elf
  
-arm-none-eabi-size   ADC_reg.elf 
-arm-none-eabi-objdump -h -S  ADC_reg.elf  > "ADC_reg.list"
-arm-none-eabi-objcopy  -O ihex  ADC_reg.elf  "ADC_reg.hex"
-arm-none-eabi-objcopy  -O binary  ADC_reg.elf  "ADC_reg.bin"
+arm-none-eabi-size   ADC_Reg.elf 
+arm-none-eabi-objdump -h -S  ADC_Reg.elf  > "ADC_Reg.list"
+arm-none-eabi-objcopy  -O ihex  ADC_Reg.elf  "ADC_Reg.hex"
+arm-none-eabi-objcopy  -O binary  ADC_Reg.elf  "ADC_Reg.bin"
    text	   data	    bss	    dec	    hex	filename
-  16156	    472	   1592	  18220	   472c	ADC_reg.elf
+   4076	    108	   1612	   5796	   16a4	ADC_Reg.elf
 Finished building: default.size.stdout
  
-Finished building: ADC_reg.list
+Finished building: ADC_Reg.bin
+Finished building: ADC_Reg.hex
  
-Finished building: ADC_reg.hex
-Finished building: ADC_reg.bin
  
+Finished building: ADC_Reg.list
  
 
-20:40:06 Build Finished. 0 errors, 0 warnings. (took 652ms)
+23:19:06 Build Finished. 0 errors, 1 warnings. (took 872ms)
 

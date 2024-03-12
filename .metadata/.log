@@ -1097,3 +1097,56 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-06 22:09:02.866
 !MESSAGE Project is null
+!SESSION 2024-03-11 21:25:54.537 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-11 21:26:35.378
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-11 21:26:35.457
+!MESSAGE Log4j initialized with config file D:\cd\STM32\Project\STM32_BasicProjects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-11 21:26:44.318
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-11 21:31:48.541
+!MESSAGE Indexed 'ADC_Reg' (3 sources, 64 headers) in 1.31 sec: 3,045 declarations; 5,195 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.024%)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2024-03-11 22:50:04.110
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: D:\cd\STM32\Project\STM32_BasicProjects\ADC_Reg\Debug\UART_Reg.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:921)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$14(StackAnalyzerView.java:1218)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+!SESSION 2024-03-12 20:14:43.228 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-12 20:15:07.142
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-12 20:15:07.272
+!MESSAGE Log4j initialized with config file D:\cd\STM32\Project\STM32_BasicProjects\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-12 20:15:22.009
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-12 20:30:03.433
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-12 20:30:03.433
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-12 20:30:03.433
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\UART_Reg overlaps the location of another project: 'UART_Reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-12 20:30:03.434
+!MESSAGE Project is null
