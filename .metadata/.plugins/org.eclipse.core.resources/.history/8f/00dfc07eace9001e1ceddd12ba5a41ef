@@ -1,0 +1,40 @@
+#include <stdint.h>
+#include <stm32f401xe.h>
+#include <stdio.h>
+#include "SystemClock.h"
+#include "Timer.h"
+#include "USART.h"
+#include "ADC.h"
+
+
+
+void GPIO_init();
+
+
+
+int main()
+{
+	SystemClock_config();
+	GPIO_init();
+	Timer1_init();
+	USART1_init();
+	ADC1_Init();
+	ADC1_Start_IT();
+
+	while(1)
+	{
+//		for(int i=0; i<1000; i++);
+	}
+}
+
+
+
+/* Initializing GPIO */
+void GPIO_init(void)
+{
+	RCC->AHB1ENR |= (1<<0);				// enable GPIOA clock
+
+	GPIOA->MODER |= (2<<18) | (3<<2);	// alternate function for PA9, analog for PA1
+	GPIOA->OSPEEDR |= (2<<18) | (2<<2);	// high speed for PA1, PA9
+	GPIOA->AFR[1] |= (7<<4);			// USART mode for PA9
+}

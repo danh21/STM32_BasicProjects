@@ -9759,3 +9759,1952 @@
 2024-03-24 10:52:44,022 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2024-03-24 10:52:44,023 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
 2024-03-24 10:52:44,024 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-03-24 11:21:55,535 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2024-03-24 11:21:55,859 [INFO] ApplicationProperties:181 - Using Application install path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646
+2024-03-24 11:21:55,890 [INFO] DbMcusXml:77 - Set database path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/mcu/
+2024-03-24 11:21:55,890 [INFO] ApiDb:273 - Set plugin database path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/boardmanager/
+2024-03-24 11:21:55,891 [WARN] ApiDb:258 - Overriding images path with different value:  => D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/mcufinder/images/
+2024-03-24 11:21:55,906 [INFO] ApiDb:249 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2024-03-24 11:21:55,908 [INFO] DbMcusAds:124 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2024-03-24 11:21:55,927 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-03-24 11:21:56,036 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2024-03-24 11:21:56,107 [INFO] DbMcusXml:77 - Set database path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/mcu/
+2024-03-24 11:21:56,107 [INFO] ApiDb:273 - Set plugin database path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/boardmanager/
+2024-03-24 11:21:56,107 [INFO] ApiDb:260 - Set plugin images path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/mcufinder/images/
+2024-03-24 11:21:56,107 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,108 [INFO] ApiDb:249 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2024-03-24 11:21:56,108 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,108 [INFO] DbMcusAds:124 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2024-03-24 11:21:56,108 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,109 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,109 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-03-24 11:21:56,174 [INFO] MainPanel:252 - HeapMemory: 597688320
+2024-03-24 11:21:56,269 [INFO] DbMcusXml:77 - Set database path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/mcu/
+2024-03-24 11:21:56,270 [INFO] ApiDb:273 - Set plugin database path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/boardmanager/
+2024-03-24 11:21:56,270 [INFO] ApiDb:260 - Set plugin images path to: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\/plugins/mcufinder/images/
+2024-03-24 11:21:56,270 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,271 [INFO] ApiDb:249 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2024-03-24 11:21:56,271 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,271 [INFO] DbMcusAds:124 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/
+2024-03-24 11:21:56,271 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,271 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\DELL\.stmcufinder\plugins\mcufinder/ => C:\Users\DELL\.stmcufinder\plugins\mcufinder
+2024-03-24 11:21:56,271 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\DELL\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-03-24 11:21:56,290 [INFO] ApplicationProperties:181 - Using Application install path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646
+2024-03-24 11:21:56,291 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2024-03-24 11:21:56,292 [INFO] PluginManage:307 - Check plugin analytics
+2024-03-24 11:21:56,441 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2024-03-24 11:21:56,442 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2024-03-24 11:21:56,442 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: FW.F4.1.27.0
+2024-03-24 11:21:56,449 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2024-03-24 11:21:56,451 [INFO] PluginManage:307 - Check plugin cadmodel
+2024-03-24 11:21:56,466 [INFO] CADModel:104 - Init CAD model plugin
+2024-03-24 11:21:56,468 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2024-03-24 11:21:56,468 [INFO] PluginManage:307 - Check plugin clock
+2024-03-24 11:21:56,488 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2024-03-24 11:21:56,488 [INFO] PluginManage:307 - Check plugin ddr
+2024-03-24 11:21:56,491 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2024-03-24 11:21:56,491 [INFO] PluginManage:307 - Check plugin filemanager
+2024-03-24 11:21:56,622 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2024-03-24 11:21:56,622 [INFO] PluginManage:307 - Check plugin ipmanager
+2024-03-24 11:21:56,630 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2024-03-24 11:21:56,630 [INFO] PluginManage:307 - Check plugin lpbam
+2024-03-24 11:21:56,646 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2024-03-24 11:21:56,647 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2024-03-24 11:21:56,664 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2024-03-24 11:21:56,664 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2024-03-24 11:21:56,695 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2024-03-24 11:21:56,695 [INFO] PluginManage:307 - Check plugin power
+2024-03-24 11:21:56,724 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2024-03-24 11:21:56,724 [INFO] PluginManage:307 - Check plugin projectmanager
+2024-03-24 11:21:56,737 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2024-03-24 11:21:56,737 [INFO] PluginManage:307 - Check plugin thirdparty
+2024-03-24 11:21:56,951 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2024-03-24 11:21:56,952 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2024-03-24 11:21:56,951 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2024-03-24 11:21:56,953 [INFO] PluginManage:307 - Check plugin tools
+2024-03-24 11:21:56,954 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2024-03-24 11:21:56,980 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2024-03-24 11:21:56,980 [INFO] PluginManage:307 - Check plugin tutovideos
+2024-03-24 11:21:57,172 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2024-03-24 11:21:57,172 [INFO] PluginManage:307 - Check plugin updater
+2024-03-24 11:21:57,192 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2024-03-24 11:21:57,192 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2024-03-24 11:21:57,466 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2024-03-24 11:21:57,534 [INFO] CADModel:164 - CPN selected for project level
+2024-03-24 11:21:57,534 [INFO] CADModel:113 - Register for checkConnection events
+2024-03-24 11:21:57,560 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,561 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2024-03-24 11:21:57,592 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,592 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2024-03-24 11:21:57,629 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,629 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2024-03-24 11:21:57,653 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,654 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2024-03-24 11:21:57,694 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,694 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2024-03-24 11:21:57,728 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,728 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2024-03-24 11:21:57,744 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,744 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2024-03-24 11:21:57,782 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,782 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2024-03-24 11:21:57,803 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,803 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2024-03-24 11:21:57,859 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,860 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2024-03-24 11:21:57,874 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,874 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2024-03-24 11:21:57,891 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,892 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2024-03-24 11:21:57,965 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:57,965 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2024-03-24 11:21:58,072 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,072 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2024-03-24 11:21:58,085 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,085 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2024-03-24 11:21:58,166 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,167 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2024-03-24 11:21:58,199 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,199 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2024-03-24 11:21:58,246 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,246 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2024-03-24 11:21:58,285 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,285 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2024-03-24 11:21:58,387 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,388 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2024-03-24 11:21:58,458 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,458 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2024-03-24 11:21:58,486 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,487 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2024-03-24 11:21:58,518 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,518 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2024-03-24 11:21:58,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,531 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2024-03-24 11:21:58,543 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,544 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2024-03-24 11:21:58,571 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,572 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2024-03-24 11:21:58,624 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,625 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2024-03-24 11:21:58,662 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,662 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2024-03-24 11:21:58,675 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,677 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2024-03-24 11:21:58,700 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,700 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2024-03-24 11:21:58,711 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,712 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2024-03-24 11:21:58,760 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,760 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2024-03-24 11:21:58,789 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,790 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2024-03-24 11:21:58,829 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,830 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2024-03-24 11:21:58,853 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,854 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2024-03-24 11:21:58,918 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,919 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2024-03-24 11:21:58,940 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,940 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2024-03-24 11:21:58,963 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,964 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2024-03-24 11:21:58,979 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,980 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2024-03-24 11:21:58,997 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:58,997 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2024-03-24 11:21:59,032 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:59,032 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2024-03-24 11:21:59,068 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:21:59,068 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2024-03-24 11:21:59,185 [INFO] CADModel:164 - CPN selected for project level
+2024-03-24 11:21:59,185 [INFO] CADModel:113 - Register for checkConnection events
+2024-03-24 11:21:59,186 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,186 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2024-03-24 11:21:59,324 [INFO] CADModel:164 - CPN selected for project level
+2024-03-24 11:21:59,324 [INFO] CADModel:113 - Register for checkConnection events
+2024-03-24 11:21:59,324 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,324 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2024-03-24 11:21:59,329 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,439 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,449 [INFO] DbMcusAds:52 - JSON generation date=Wed Nov 29 17:52:27 ICT 2023 (1701255147349)
+2024-03-24 11:21:59,449 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,524 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2024-03-24 11:21:59,635 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,637 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,637 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,637 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2024-03-24 11:21:59,638 [FATAL] Updater:308 - Updater called before beeing initialized
+2024-03-24 11:21:59,683 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2024-03-24 11:21:59,692 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2024-03-24 11:21:59,716 [INFO] ApplicationProperties:181 - Using Application install path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646
+2024-03-24 11:21:59,949 [INFO] MainUpdater:2800 - connection check result : 10
+2024-03-24 11:21:59,950 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2024-03-24 11:21:59,950 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2024-03-24 11:21:59,962 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2024-03-24 11:21:59,962 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2024-03-24 11:22:00,137 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2024-03-24 11:22:00,195 [INFO] MainUpdater:2800 - connection check result : 10
+2024-03-24 11:22:00,204 [INFO] MainUpdater:2800 - connection check result : 10
+2024-03-24 11:22:00,404 [INFO] MicroXplorer:451 - Change Database Path : 
+2024-03-24 11:22:00,404 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2024-03-24 11:22:00,405 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2024-03-24 11:22:03,186 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2024-03-24 11:22:03,202 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.23.0
+2024-03-24 11:22:03,252 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2024-03-24 11:22:03,267 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.2
+2024-03-24 11:22:03,284 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: GROUP='STM32_MetaDataManager' CLASS='Data Exchange'
+2024-03-24 11:22:03,284 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2024-03-24 11:22:03,285 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.1
+2024-03-24 11:22:03,300 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.1
+2024-03-24 11:22:03,314 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2024-03-24 11:22:03,324 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.2
+2024-03-24 11:22:03,340 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2024-03-24 11:22:03,356 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.7.0.0
+2024-03-24 11:22:03,367 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.0
+2024-03-24 11:22:03,428 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.3.0
+2024-03-24 11:22:03,622 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.3.1.0
+2024-03-24 11:22:03,649 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-SMARTAG2.1.2.0
+2024-03-24 11:22:03,679 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-03-24 11:22:03,680 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-03-24 11:22:03,680 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-03-24 11:22:03,681 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-03-24 11:22:03,682 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2024-03-24 11:22:03,699 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.2.0.0
+2024-03-24 11:22:03,732 [WARN] PackLoader:242 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2024-03-24 11:22:03,753 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2024-03-24 11:22:03,774 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2024-03-24 11:22:03,812 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2024-03-24 11:22:03,856 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2024-03-24 11:22:03,871 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2024-03-24 11:22:03,885 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.0
+2024-03-24 11:22:03,929 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2024-03-24 11:22:04,056 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2024-03-24 11:22:04,072 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2024-03-24 11:22:04,102 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2024-03-24 11:22:04,118 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2024-03-24 11:22:04,170 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.1
+2024-03-24 11:22:04,212 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.3.0.0
+2024-03-24 11:22:04,227 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2024-03-24 11:22:04,237 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2024-03-24 11:22:04,252 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.5.1.0
+2024-03-24 11:22:04,264 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2024-03-24 11:22:04,312 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2024-03-24 11:22:04,486 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2024-03-24 11:22:04,519 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2024-03-24 11:22:04,554 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2024-03-24 11:22:04,584 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.2.0
+2024-03-24 11:22:04,616 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.2.0.0
+2024-03-24 11:22:04,674 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2024-03-24 11:22:04,812 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC6.3.1.0
+2024-03-24 11:22:04,828 [WARN] PackLoader:242 - Cannot read IP mode file for ITTIA_DB.I-CUBE-ITTIADB.8.8.0
+2024-03-24 11:22:04,841 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2024-03-24 11:22:04,856 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2024-03-24 11:22:04,873 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.5
+2024-03-24 11:22:04,906 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,907 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,910 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2024-03-24 11:22:04,911 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,911 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,912 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,912 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,912 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:04,932 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.3
+2024-03-24 11:22:04,943 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.1
+2024-03-24 11:22:04,952 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2024-03-24 11:22:04,963 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC6.3.0.0
+2024-03-24 11:22:04,977 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2024-03-24 11:22:04,991 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.1.0
+2024-03-24 11:22:05,019 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : LAN8742 Phy interface Condition cause : null
+2024-03-24 11:22:05,019 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.2.0.0
+2024-03-24 11:22:05,020 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2024-03-24 11:22:05,021 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2024-03-24 11:22:05,021 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2024-03-24 11:22:05,032 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2024-03-24 11:22:05,061 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2024-03-24 11:22:05,072 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2024-03-24 11:22:05,084 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2024-03-24 11:22:05,094 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2024-03-24 11:22:05,110 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,110 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,111 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.2.0.0
+2024-03-24 11:22:05,111 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,111 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,111 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,111 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,111 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2024-03-24 11:22:05,121 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.0
+2024-03-24 11:22:05,129 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2024-03-24 11:22:05,146 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2024-03-24 11:22:05,157 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.1
+2024-03-24 11:22:05,169 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2024-03-24 11:22:05,194 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.1
+2024-03-24 11:22:05,215 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2024-03-24 11:22:05,224 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2024-03-24 11:22:05,242 [WARN] PackLoader:242 - Cannot read IP mode file for Infineon.AIROC-Wi-Fi-Bluetooth-STM32.1.5.1
+2024-03-24 11:22:05,253 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENVWB1.1.3.1
+2024-03-24 11:22:05,274 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2024-03-24 11:22:05,306 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2024-03-24 11:22:05,322 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.2.0.0
+2024-03-24 11:22:05,370 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.10.0.0
+2024-03-24 11:22:05,488 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.1.0
+2024-03-24 11:22:05,511 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2024-03-24 11:22:05,523 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2024-03-24 11:22:05,534 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2024-03-24 11:22:05,561 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2024-03-24 11:22:05,587 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2024-03-24 11:22:05,596 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2024-03-24 11:22:05,609 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.4.0
+2024-03-24 11:22:05,631 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.4.1
+2024-03-24 11:22:05,668 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.2.0
+2024-03-24 11:22:05,671 [INFO] ThirdParty:947 - Integrity check success = true
+2024-03-24 11:22:05,671 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2024-03-24 11:22:05,671 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2024-03-24 11:22:05,671 [INFO] ThirdParty:847 - entering critical section [close project]
+2024-03-24 11:22:05,673 [INFO] ThirdParty:857 - exiting critical section [close project]
+2024-03-24 11:22:05,677 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2024-03-24 11:22:05,683 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 619939040 Bytes (665845760)
+2024-03-24 11:22:05,684 [INFO] MicroXplorer:451 - Change Database Path : 
+2024-03-24 11:22:05,684 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2024-03-24 11:22:05,684 [INFO] OpenFileManager:307 - Change cursor
+2024-03-24 11:22:05,746 [INFO] Mcu:1925 - Initializing MCU STM32F401V(D-E)Tx STM32F401VETx STM32F401VET6
+2024-03-24 11:22:06,991 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2024-03-24 11:22:07,467 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-03-24 11:22:07,467 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-03-24 11:22:07,467 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-03-24 11:22:07,467 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-03-24 11:22:07,468 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,473 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,474 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,475 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2024-03-24 11:22:07,705 [INFO] ThirdPartyModel:294 - Start build external matchings
+2024-03-24 11:22:09,026 [INFO] ThirdPartyModel:310 - End build external matchings
+2024-03-24 11:22:09,263 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 630084016 Bytes (738197504)
+2024-03-24 11:22:09,377 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (C:\Users\DELL\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2024-03-24 11:22:09,443 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2024-03-24 11:22:09,444 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.39
+2024-03-24 11:22:09,444 [INFO] ApiDb:669 - CubeFinder database generation date=2024-01-11 (1704964531)
+2024-03-24 11:22:09,444 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V2.0.0, FP-SNS-FLIGHT1_V5.0.1, FP-SNS-FLIGHT1_V5.0.2, FP-SNS-MOTENV1_V4.3.1, FP-SNS-MOTENV1_V4.3.2, FP-SNS-MOTENVWB1_V1.3.1, FP-SNS-SMARTAG2_V1.2.0, STM32Cube_FW_C0_V1.1.0, STM32Cube_FW_F4_V1.28.0, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.2, STM32Cube_FW_G4_V1.5.2, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.1.1, STM32Cube_FW_H5_V1.2.0RC2, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.3.0RC4, STM32Cube_FW_U5_V1.4.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.1.0RC1, STM32Cube_FW_WBA_V1.2.0, STM32Cube_FW_WBA_V1.2.0RC2, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WB_V1.18.0, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V2.0.0, X-CUBE-AZRTOS-H7_V3.2.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L4_V2.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V2.0.0, X-CUBE-AZRTOS-WL_V2.0.0, X-CUBE-BLE1_V7.0.0, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V3.0.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-EEPRMA1_V4.2.0, X-CUBE-FREERTOS_V1.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V10.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.6.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.1, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0, X-CUBE-TOF1_V3.4.0]
+2024-03-24 11:22:11,259 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2024-03-24 11:22:11,262 [INFO] DbMcus:215 - Found 3853 MCUs, 3853 are supported
+2024-03-24 11:22:11,264 [INFO] ApiDb:422 - Load user favorites file C:\Users\DELL/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-03-24 11:22:11,264 [INFO] ApiDb:426 - User favorites MCUs=[]
+2024-03-24 11:22:11,264 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2024-03-24 11:22:11,540 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2024-03-24 11:22:11,540 [INFO] ThirdParty:809 - entering critical section [change project]
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.1
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.1
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.3
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.22.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-03-24 11:22:11,542 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-03-24 11:22:11,543 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-03-24 11:22:11,544 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2024-03-24 11:22:11,545 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2024-03-24 11:22:11,546 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-03-24 11:22:11,547 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-03-24 11:22:11,547 [INFO] ThirdParty:815 - exiting critical section [change project]
+2024-03-24 11:22:11,863 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2024-03-24 11:22:11,864 [INFO] PinOutPanel:1477 - setPackage(STM32F401VETx,LQFP100)
+2024-03-24 11:22:12,378 [INFO] UtilMem:74 - Before build in PCC Used Memory: 612948056 Bytes (738197504)
+2024-03-24 11:22:13,228 [INFO] UtilMem:74 - After build in PCC Used Memory: 603035920 Bytes (738197504)
+2024-03-24 11:22:13,268 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,269 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,269 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,269 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,269 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,269 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,270 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,270 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,270 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,270 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,270 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,270 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,271 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,271 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,271 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,271 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,272 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,272 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,272 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,273 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,274 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,274 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,274 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,275 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,275 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,275 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,276 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,276 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,276 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,276 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,277 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,277 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,277 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,277 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,278 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,278 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,278 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,279 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,279 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2024-03-24 11:22:13,364 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
+2024-03-24 11:22:13,765 [INFO] CADModel:164 - CPN selected for project levelSTM32F401VET6
+2024-03-24 11:22:13,765 [INFO] CADModel:113 - Register for checkConnection events
+2024-03-24 11:22:13,818 [INFO] OpenFileManager:327 - Restore cursor
+2024-03-24 11:42:10,027 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,143 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,143 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,144 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,144 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,144 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,144 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,145 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,145 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,145 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,145 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,146 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,146 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,146 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,146 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:10,187 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:14,896 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x92,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 11:42:17,870 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,870 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,870 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,871 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:42:17,894 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,759 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 11:52:20,815 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,817 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,817 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,818 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,818 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,818 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,818 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,820 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:52:20,848 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,677 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,680 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,680 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,680 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,680 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,681 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,681 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,681 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,681 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,681 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,681 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,682 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,682 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,682 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,699 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,723 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,725 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,726 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,726 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,726 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,726 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,726 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,726 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 11:57:00,750 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,440 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:00:41,483 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,485 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,485 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,485 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,485 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,486 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,486 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,486 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,486 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,486 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,486 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,487 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,487 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,487 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:41,510 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:45,148 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:00:46,268 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,269 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:00:46,286 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:17,037 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:01:18,149 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,151 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,152 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,152 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:18,166 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:01:41,221 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:02:55,664 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 633474160 Bytes (738197504)
+2024-03-24 12:02:55,788 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 653301392 Bytes (738197504)
+2024-03-24 12:02:56,373 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:02:56,373 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:02:56,374 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:02:56,374 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:02:56,374 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:02:56,374 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:02:56,376 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:02:56,873 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:02:57,257 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:02:57,351 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:02:57,487 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:02:57,615 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:02:57,758 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:02:57,781 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:02:57,889 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:02:57,926 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:02:58,073 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:02:58,105 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:02:58,177 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:02:58,215 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:02:58,420 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:02:58,499 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:02:58,700 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:02:58,727 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:02:58,937 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:02:59,973 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 316mS.
+2024-03-24 12:02:59,983 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:03:00,246 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:03:00,259 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2024-03-24 12:03:00,271 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2024-03-24 12:03:00,278 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2024-03-24 12:03:00,288 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2024-03-24 12:03:00,299 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2024-03-24 12:03:00,307 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2024-03-24 12:03:03,032 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 3047mS.
+2024-03-24 12:03:03,033 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:03:03,034 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:08:39,397 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,399 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,400 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,414 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,415 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,416 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,417 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:39,431 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,708 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:08:50,753 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,756 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,757 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,757 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,757 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:08:50,770 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:09:04,699 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 682841984 Bytes (1006632960)
+2024-03-24 12:09:04,798 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 704271872 Bytes (1006632960)
+2024-03-24 12:09:04,970 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:09:04,970 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:09:04,970 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:09:04,970 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:09:04,970 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:09:04,970 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:09:04,971 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:09:05,132 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:09:05,211 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:09:05,228 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:09:05,308 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:09:05,409 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:09:05,482 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:09:05,488 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:09:05,550 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:09:05,569 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:09:05,693 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:09:05,722 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:09:05,779 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:09:05,807 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:09:05,920 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:09:05,980 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:09:06,033 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:09:06,069 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:09:06,195 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:09:06,865 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 295mS.
+2024-03-24 12:09:06,867 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:09:07,115 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:09:08,253 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1386mS.
+2024-03-24 12:09:08,254 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:09:08,256 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:15:41,683 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:15:41,721 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,723 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,724 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,724 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,724 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,724 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:41,755 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:15:46,870 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 665286912 Bytes (1016070144)
+2024-03-24 12:15:46,967 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 685649152 Bytes (1016070144)
+2024-03-24 12:15:47,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:15:47,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:15:47,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:15:47,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:15:47,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:15:47,169 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:15:47,169 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:15:47,314 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:15:47,389 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:15:47,402 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:15:47,473 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:15:47,525 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:15:47,846 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:15:47,852 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:15:47,947 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:15:47,995 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:15:48,174 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:15:48,179 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:15:48,228 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:15:48,244 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:15:48,349 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:15:48,385 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:15:48,509 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:15:48,522 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:15:48,649 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:15:49,366 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 296mS.
+2024-03-24 12:15:49,369 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:15:49,699 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:15:51,044 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1675mS.
+2024-03-24 12:15:51,045 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:15:51,047 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:16:18,968 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:16:18,999 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,002 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,002 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,002 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,002 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,002 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,003 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:19,017 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:16:22,928 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 738928296 Bytes (1029701632)
+2024-03-24 12:16:22,975 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 668366064 Bytes (1029701632)
+2024-03-24 12:16:23,064 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 690167864 Bytes (1029701632)
+2024-03-24 12:16:23,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:16:23,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:16:23,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:16:23,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:16:23,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:16:23,247 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:16:23,248 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:16:23,369 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:16:23,438 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:16:23,451 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:16:23,519 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:16:23,575 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:16:23,679 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:16:23,684 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:16:23,753 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:16:23,767 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:16:23,876 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:16:23,880 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:16:23,925 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:16:23,939 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:16:24,066 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:16:24,101 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:16:24,165 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:16:24,176 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:16:24,256 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:16:24,928 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 232mS.
+2024-03-24 12:16:24,930 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:16:25,161 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:16:26,118 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1188mS.
+2024-03-24 12:16:26,119 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:16:26,121 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:19:52,966 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:19:52,997 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:52,999 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,000 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,000 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,000 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,000 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,000 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,001 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:53,022 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:19:56,138 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 788678976 Bytes (1044381696)
+2024-03-24 12:19:56,169 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 804407616 Bytes (1044381696)
+2024-03-24 12:19:56,249 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 824330560 Bytes (1044381696)
+2024-03-24 12:19:56,409 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:19:56,409 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:19:56,409 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:19:56,409 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:19:56,409 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:19:56,409 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:19:56,410 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:19:56,564 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:19:56,650 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:19:56,660 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:19:56,723 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:19:56,786 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:19:56,878 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:19:56,883 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:19:56,945 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:19:56,962 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:19:57,047 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:19:57,050 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:19:57,114 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:19:57,129 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:19:57,209 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:19:57,252 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:19:57,313 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:19:57,324 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:19:57,402 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:19:58,035 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 226mS.
+2024-03-24 12:19:58,037 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:19:58,336 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:19:59,267 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1230mS.
+2024-03-24 12:19:59,267 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:19:59,269 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:22:46,975 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,978 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,979 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,979 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,979 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,979 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,979 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:46,995 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,025 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,026 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,026 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,026 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,026 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,027 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,049 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,153 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,153 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,154 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,172 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,190 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,192 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,192 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,192 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,192 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,192 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,192 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:22:47,204 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:14,001 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:23:18,594 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,595 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,595 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,595 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,596 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:18,608 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:23:38,065 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 799598488 Bytes (1053818880)
+2024-03-24 12:23:38,102 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 815112568 Bytes (1053818880)
+2024-03-24 12:23:38,191 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 835250072 Bytes (1053818880)
+2024-03-24 12:23:38,344 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:23:38,344 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:23:38,344 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:23:38,345 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:23:38,345 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:23:38,345 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:23:38,345 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:23:38,448 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:23:38,511 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:23:38,522 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:23:38,585 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:23:38,627 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:23:38,715 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:23:38,719 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:23:38,764 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:23:38,781 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:23:38,893 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:23:38,896 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:23:38,941 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:23:38,954 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:23:39,023 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:23:39,050 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:23:39,102 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:23:39,113 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:23:39,239 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:23:39,776 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 216mS.
+2024-03-24 12:23:39,777 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:23:40,022 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:23:40,979 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1202mS.
+2024-03-24 12:23:40,980 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:23:40,982 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:24:05,085 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,087 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,087 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,087 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,087 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,087 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,088 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,088 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,088 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,088 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,088 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,088 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,089 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,089 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,099 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,116 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,117 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,119 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,125 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,158 [INFO] ParamManager:821 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-24 12:24:05,191 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,193 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,194 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,194 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,194 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,194 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,194 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,213 [INFO] ParamManager:821 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-24 12:24:05,253 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,281 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,282 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,282 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,282 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,282 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,283 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,314 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,432 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,433 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,433 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,434 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,448 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,472 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,472 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,472 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,473 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:05,486 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:07,971 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 899911184 Bytes (1060110336)
+2024-03-24 12:24:08,008 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 660698576 Bytes (1060110336)
+2024-03-24 12:24:08,088 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 681145808 Bytes (1060110336)
+2024-03-24 12:24:08,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:24:08,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:24:08,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:24:08,258 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:24:08,258 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:24:08,258 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:24:08,259 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:24:08,363 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:24:08,432 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:24:08,444 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:24:08,510 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:24:08,547 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:24:08,632 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:24:08,635 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:24:08,678 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:24:08,691 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:24:08,773 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:24:08,776 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:24:08,821 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:24:08,834 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:24:08,901 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:24:08,932 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:24:08,985 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:24:08,994 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:24:09,167 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:24:09,742 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 223mS.
+2024-03-24 12:24:09,744 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:24:10,000 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:24:10,964 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1220mS.
+2024-03-24 12:24:10,964 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:24:10,965 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:24:12,887 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,544x200,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:24:15,230 [ERROR] ConfigurationRetriever:140 - IOException on connection: Read timed out
+2024-03-24 12:24:16,055 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,056 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,057 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,057 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,057 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,057 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:24:16,069 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:06,152 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:33:08,054 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:33:08,115 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:33:08,171 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:33:08,248 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:33:08,311 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:33:08,334 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,338 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,353 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,372 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:08,373 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:14,508 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:33:17,567 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,567 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,568 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,569 [INFO] ADCParametersView:113 -        *      Injected Rank 1 : false
+2024-03-24 12:33:17,585 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,585 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:17,585 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:17,587 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:33:19,619 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,619 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,620 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,621 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:19,635 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,635 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:19,635 [INFO] ADCParametersView:113 -                Injected Rank 1 : false
+2024-03-24 12:33:39,463 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:33:39,463 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:33:45,380 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 693310944 Bytes (1063256064)
+2024-03-24 12:33:45,414 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 709039584 Bytes (1063256064)
+2024-03-24 12:33:45,506 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 729488864 Bytes (1063256064)
+2024-03-24 12:33:45,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:33:45,685 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:33:45,685 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:33:45,685 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:33:45,685 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:33:45,685 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:33:45,686 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:33:45,792 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:33:45,861 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:33:45,871 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:33:45,936 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:33:45,974 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:33:46,136 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:33:46,141 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:33:46,190 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:33:46,205 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:33:46,306 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:33:46,309 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:33:46,349 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:33:46,361 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:33:46,438 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:33:46,481 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:33:46,549 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:33:46,560 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:33:46,681 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:33:47,317 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 223mS.
+2024-03-24 12:33:47,319 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:33:47,522 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:33:48,538 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1219mS.
+2024-03-24 12:33:48,539 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:33:48,540 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:34:07,037 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:34:07,041 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,042 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,043 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,044 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,059 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,059 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:07,060 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:07,531 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:34:08,953 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,953 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,954 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,954 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,954 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,954 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,954 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,954 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,955 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:08,969 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,972 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:08,972 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:14,530 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:34:18,779 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,779 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,780 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,781 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:18,795 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,796 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:18,796 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,101 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:34:20,666 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,666 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,667 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,668 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,694 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,695 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:20,695 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:20,696 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:34:21,030 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,031 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,032 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,033 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,034 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,034 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,034 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:21,049 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,050 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:21,050 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,868 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:34:33,896 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,897 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,901 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,901 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,902 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,903 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,903 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,903 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,903 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,903 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,903 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:33,915 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,916 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:33,917 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:39,478 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 809300936 Bytes (1067450368)
+2024-03-24 12:34:39,511 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 824823744 Bytes (1067450368)
+2024-03-24 12:34:39,609 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 731288024 Bytes (1067450368)
+2024-03-24 12:34:39,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:34:39,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:34:39,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:34:39,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:34:39,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:34:39,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:34:39,790 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:34:39,899 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:34:39,965 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:34:39,973 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:34:40,059 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:34:40,103 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:34:40,228 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:34:40,231 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:34:40,282 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:34:40,299 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:34:40,362 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:34:40,364 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:34:40,404 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:34:40,416 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:34:40,488 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:34:40,522 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:34:40,596 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:34:40,608 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:34:40,698 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:34:41,299 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 249mS.
+2024-03-24 12:34:41,301 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:34:41,569 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:34:42,464 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1163mS.
+2024-03-24 12:34:42,465 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:34:42,467 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:34:55,149 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:34:55,180 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,180 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,181 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,181 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,182 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,183 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,183 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,183 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:55,196 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,197 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:34:55,197 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:34:59,333 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:35:02,092 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:35:02,115 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,116 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,118 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,118 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,118 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,119 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,119 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,119 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,119 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,119 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,119 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,120 [INFO] ADCParametersView:113 -                Injected Rank 1 : true
+2024-03-24 12:35:02,149 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,151 [INFO] SpinnerEditor:79 - is string kkkk
+2024-03-24 12:35:02,161 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,162 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:35:02,174 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,331 [INFO] ParamManager:821 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-24 12:39:30,342 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,342 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,343 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:39:30,347 [INFO] ParamManager:821 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-24 12:39:30,357 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,368 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,369 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,370 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,370 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,375 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,430 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:39:30,478 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:39:30,535 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,536 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,548 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,565 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,566 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,566 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,566 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,566 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,566 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,566 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:30,578 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,792 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,796 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,801 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,813 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,814 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,819 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,837 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,838 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:39:45,849 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:01,806 [INFO] ADCParametersView:113 -                Rank 1 : true
+2024-03-24 12:40:03,818 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:07,305 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 898878112 Bytes (1070596096)
+2024-03-24 12:40:07,337 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 914499664 Bytes (1070596096)
+2024-03-24 12:40:07,423 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 935471184 Bytes (1070596096)
+2024-03-24 12:40:07,581 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:40:07,581 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:40:07,581 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:40:07,581 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:40:07,581 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:40:07,581 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:40:07,582 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:40:07,713 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:40:07,777 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:40:07,785 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:40:07,845 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:40:07,881 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:40:07,972 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:40:07,976 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:40:08,044 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:40:08,060 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:40:08,196 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:40:08,201 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:40:08,258 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:40:08,274 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:40:08,381 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:40:08,454 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:40:08,553 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:40:08,563 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:40:08,649 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:40:09,233 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 207mS.
+2024-03-24 12:40:09,235 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:40:09,463 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:40:10,344 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1109mS.
+2024-03-24 12:40:10,345 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:40:10,346 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:40:14,993 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,544x200,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:40:16,826 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:40:17,544 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:40:27,349 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:40:28,948 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 755515832 Bytes (1072693248)
+2024-03-24 12:40:28,984 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 772056888 Bytes (1072693248)
+2024-03-24 12:40:29,079 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 792215992 Bytes (1072693248)
+2024-03-24 12:40:29,231 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:40:29,232 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:40:29,232 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:40:29,232 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:40:29,232 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:40:29,232 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:40:29,233 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:40:29,384 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:40:29,460 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:40:29,470 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:40:29,544 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:40:29,599 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:40:29,699 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:40:29,705 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:40:29,773 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:40:29,789 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:40:29,912 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:40:29,916 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:40:29,999 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:40:30,015 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:40:30,152 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:40:30,193 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:40:30,280 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:40:30,294 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:40:30,368 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:40:31,036 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 233mS.
+2024-03-24 12:40:31,037 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:40:31,364 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:40:32,291 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1254mS.
+2024-03-24 12:40:32,292 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:40:32,293 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,275 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,276 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,289 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,290 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,303 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,315 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,316 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,317 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,317 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,317 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,317 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:40:59,338 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,499 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-24 12:41:02,544 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,545 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,545 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,545 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,545 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,545 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,546 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:02,559 [INFO] ADCParametersView:113 -                Rank 1 : false
+2024-03-24 12:41:17,607 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 704690912 Bytes (1073741824)
+2024-03-24 12:41:17,683 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 747281920 Bytes (1073741824)
+2024-03-24 12:41:17,805 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 799184384 Bytes (1073741824)
+2024-03-24 12:41:18,019 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-24 12:41:18,019 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-03-24 12:41:18,019 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-24 12:41:18,019 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-24 12:41:18,019 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-03-24 12:41:18,019 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-24 12:41:18,020 [INFO] CodeGenerator:692 - code generatio: config db path: D:\phan_mem\STM32\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2024-03-24 12:41:18,138 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp_save
+2024-03-24 12:41:18,228 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\license.tmp
+2024-03-24 12:41:18,239 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp_save
+2024-03-24 12:41:18,317 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\gpio.tmp
+2024-03-24 12:41:18,367 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c_save
+2024-03-24 12:41:18,477 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_it.c
+2024-03-24 12:41:18,482 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h_save
+2024-03-24 12:41:18,540 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_it.h
+2024-03-24 12:41:18,554 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-24 12:41:18,627 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\stm32f4xx_hal_msp.c
+2024-03-24 12:41:18,629 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp_save
+2024-03-24 12:41:18,688 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\MXTmpFiles\system.tmp
+2024-03-24 12:41:18,712 [INFO] CodeEngine:303 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-24 12:41:18,810 [INFO] CodeEngine:327 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-24 12:41:18,843 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h_save
+2024-03-24 12:41:18,908 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Inc\main.h
+2024-03-24 12:41:18,918 [INFO] CodeEngine:247 - oldGeneratedFile, D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c_save
+2024-03-24 12:41:19,055 [INFO] CodeEngine:271 - Generated code: D:\cd\STM32\Project\STM32_BasicProjects\ADC_HAL\Core\Src\main.c
+2024-03-24 12:41:19,822 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 267mS.
+2024-03-24 12:41:19,825 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2024-03-24 12:41:20,066 [INFO] ConfigFileManager:1396 - The Die is : DIE433
+2024-03-24 12:41:21,167 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1342mS.
+2024-03-24 12:41:21,168 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2024-03-24 12:41:21,170 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.

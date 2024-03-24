@@ -1488,3 +1488,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-24 10:52:23.398
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2024-03-24 14:01:56.101
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-03-24 14:01:56.101
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-03-24 14:01:56.101
+!MESSAGE D:\cd\STM32\Project\STM32_BasicProjects\ADC_Reg overlaps the location of another project: 'ADC_Reg'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-03-24 14:01:56.102
+!MESSAGE Project is null
