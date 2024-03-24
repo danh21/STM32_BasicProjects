@@ -45,7 +45,7 @@ ADC_HandleTypeDef hadc1;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-uint16_t ADC_value;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -59,10 +59,25 @@ static void MX_USART1_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint16_t ADC_value;
 char result[20];
 
 #define store_result	sprintf(result, "ADC value = %d\r\n", ADC_value)
 #define transmit_result	HAL_UART_Transmit(&huart1, (uint8_t*)result, sizeof(result), HAL_MAX_DELAY)
+
+
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+	if (hadc->Instance == hadc1.Instance)
+	{
+		ADC_value = HAL_ADC_GetValue(&hadc1);
+		store_result;
+		transmit_result;
+	  /*If continuousconversion mode is DISABLED uncomment below*/
+		HAL_ADC_Start_IT (&hadc1);
+	}
+}
 /* USER CODE END 0 */
 
 /**
@@ -96,28 +111,13 @@ int main(void)
   MX_ADC1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_ADC_Start_IT (&hadc1);	// start ADC in interrupt mode
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_ADC_Start(&hadc1);
-
-	  if (HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY) == HAL_OK)
-		  ADC_value = HAL_ADC_GetValue(&hadc1);
-	  /*
-	   * Resolution = 10 bits => Max ADC = 1023 (1111111111b)
-	   * */
-
-	  store_result;
-
-	  transmit_result;
-
-	  HAL_ADC_Stop(&hadc1);
-
-	  HAL_Delay(1000);
 
     /* USER CODE END WHILE */
 
@@ -189,7 +189,7 @@ static void MX_ADC1_Init(void)
   */
   hadc1.Instance = ADC1;
   hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
-  hadc1.Init.Resolution = ADC_RESOLUTION_10B;
+  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
   hadc1.Init.ScanConvMode = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
@@ -206,7 +206,7 @@ static void MX_ADC1_Init(void)
 
   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
   */
-  sConfig.Channel = ADC_CHANNEL_1;
+  sConfig.Channel = ADC_CHANNEL_7;
   sConfig.Rank = 1;
   sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)

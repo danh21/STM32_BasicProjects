@@ -2,5 +2,7 @@ DeviceConfigurationTool..FirmwareRepositoryPath=D\:\\phan_mem\\STM32\\STM32Cube\
 DeviceConfigurationTool..UpdaterCheckInterval=5
 DeviceConfigurationTool..UpdaterDataRefresh=dataRefreshDataOnly
 DeviceConfigurationTool..UpdaterDataRefreshInterfval=3
+DeviceConfigurationTool.AskToDoCodeGenerationOnIocSave=false
 DeviceConfigurationTool.AskToSwitchToCubeMxPerspective=false
+DeviceConfigurationTool.DoCodeGenerationOnIocSave=true
 eclipse.preferences.version=1
