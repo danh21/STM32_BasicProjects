@@ -14,6 +14,7 @@
     - UART_Reg: transmit data to virtual terminal by UART protocol
     - ADC_HAL: based on reference voltage, read ADC value and transmit to terminal by UART
     - ADC_Reg: based on reference voltage, read ADC value and transmit to terminal by UART
+    - WWDG_HAL: test reset feature of Window Watchdog via blinking led
 
 # Common source
     Projects using HAL library:
@@ -31,3 +32,4 @@
 
 # Reference
     https://deviot.vn/tutorials/stm32f4.62153513/lap-trinh-timer-che-do-counter-de-tao-delay.58829201
+    https://khuenguyencreator.com/lap-trinh-stm32-wwdg-window-watchdog-timer/ 

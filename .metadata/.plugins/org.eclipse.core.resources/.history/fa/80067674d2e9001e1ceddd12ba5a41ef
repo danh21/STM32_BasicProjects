@@ -1,0 +1,132 @@
+/*
+ * ADC.h
+ *
+ *  Created on: Mar 11, 2024
+ *      Author: danh21
+ */
+
+#ifndef ADC_H_
+#define ADC_H_
+
+
+
+/* GLOBAL VAR */
+uint16_t ADC1_data;
+char result[20];
+
+
+
+/* MACRO */
+#define store_result sprintf(result, "ADC value = %d\r\n", ADC1_data)
+#define transmit_data USART1_sendData(result)
+
+
+
+/* PROTOTYPE */
+void ADC1_Init();
+void ADC1_Start_Polling(int channel);
+uint16_t ADC1_Read();
+void ADC1_End();
+void ADC1_Start_IT();
+void ADC1_ConvCpltCallback();
+
+
+
+/* Initialize ADC1 channel */
+void ADC1_Init()
+{
+	RCC->APB2ENR |= (1<<8);		// enable ADC1 clock
+
+	ADC->CCR &= ~(3<<16);  		 // PCLK2 divided by 2
+
+	ADC1->CR1 |= (1<<24);		// resolution 10-bit
+
+
+
+//	ADC1->CR1 |= (1<<5);		// Enable interrupt mode for EOC
+
+
+
+
+	ADC1->CR2 |= (1<<0);		// enable ADC
+	ADC1->CR2 |= (1<<1);		// continuous conversion mode
+//	ADC1->CR2 |= (1<<10);		// EOC after each conversion
+	ADC1->CR2 &= ~(1<<11);		// data alignment right
+	ADC1->CR2 |= (15<<24);		// EXTI line 11
+//	ADC1->CR2 |= (1<<30	);		//start conversion of regular channels only with ADON=1
+
+//	ADC->CCR |= (1<<23);		//Temperature sensor enable
+//	ADC1->CR2 |= (1<<0);		//ADON=1
+
+	ADC1->SQR1 &= ~(15<<20);	// 1 conversion in the regular channel conversion sequence
+
+	ADC1->SMPR2 &= ~(7<<3);		// 3 clock cycle polling, 1th channel
+
+	SCB->AIRCR &= (7<<8);
+	NVIC->IP[18] |= (1<<4);
+	NVIC->ISER[0] |= (1<<18);
+}
+
+
+
+/* Start ADC1 with polling mode */
+void ADC1_Start_Polling(int channel)
+{
+	ADC1->SQR3 |= (channel<<0);		// polling for 1 channel, keep 1 channel in the sequence at a time
+	ADC1->CR2 |= (1<<30);			// start regular conversion
+	while (!(ADC1->SR & (1<<1)));	// wait for EOC flag to set
+}
+
+
+
+/* Return data from ADC1 channel */
+uint16_t ADC1_Read()
+{
+	return ADC1->DR;
+}
+
+
+
+/* Stop conversion from ADC1 */
+void ADC1_End()
+{
+	ADC1->CR2 &= ~(1<<0);			// disable adc
+}
+
+
+
+/* Start ADC with interrupt mode */
+void ADC1_Start_IT()
+{
+//	USART1_sendData("abc\r\n");
+//	ADC1_End();
+	ADC1->CR2 |= (1<<30);			// start regular conversion
+	ADC1->CR1 |= (1<<5);			//Enable interrupt mode for EOC
+
+//	while(!(ADC1->SR & (1<<4)));	// wait until conversion starts
+	while (!(ADC1->SR & (1<<1)));	// wait for conversion complete
+
+//	ADC1->CR1 &= ~(1<<5);
+
+
+	ADC1_ConvCpltCallback();
+}
+
+
+
+/* callback for ADC_Start_IT */
+void ADC1_ConvCpltCallback()
+{
+	ADC1_data = ADC1_Read();
+
+//	ADC1->SR &= ~(1<<2);	// Conversion is not complete
+//	delay_ms(1000);
+//	for (int i=0; i<2000; i++);
+
+
+//	ADC1_Start_IT();
+}
+
+
+
+#endif /* ADC_H_ */
