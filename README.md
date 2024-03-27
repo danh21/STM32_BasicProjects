@@ -10,7 +10,7 @@
 # Projects
     - Led_HAL: blink led by periodically using interrupt timer
     - Led_reg: blink led by periodically using counter timer
-    - UART_HAL: interaction between uC and Hercules by UART protocol, request user enter password
+    - UART_HAL: interaction between uC and Hercules by UART protocol, request user enter command and respond correspond code
     - UART_Reg: transmit data to virtual terminal by UART protocol
     - ADC_HAL: based on reference voltage, read ADC value and transmit to terminal by UART
     - ADC_Reg: based on reference voltage, read ADC value and transmit to terminal by UART
@@ -21,7 +21,7 @@
         - Core: includes source code (main.c, ...) 
         - Debug: includes hex file to upload to board
         - Drivers: includes libraries
-        - Simulation: includes proteus file
+        - Simulation: includes proteus file and schematic
         - *.ioc: setting
 
     Projects using register:

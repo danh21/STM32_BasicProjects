@@ -1,10 +1,23 @@
-20:35:22 **** Build of configuration Debug for project UART_HAL ****
+21:37:34 **** Build of configuration Debug for project UART_HAL ****
 make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UART_HAL.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\cd\STM32\Project\STM32_BasicProjects\UART_HAL\STM32F401VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_HAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_HAL.elf
+ 
 arm-none-eabi-size   UART_HAL.elf 
+arm-none-eabi-objdump -h -S  UART_HAL.elf  > "UART_HAL.list"
+arm-none-eabi-objcopy  -O ihex  UART_HAL.elf  "UART_HAL.hex"
+arm-none-eabi-objcopy  -O binary  UART_HAL.elf  "UART_HAL.bin"
    text	   data	    bss	    dec	    hex	filename
-   8308	    100	   1740	  10148	   27a4	UART_HAL.elf
+   8640	    184	   1664	  10488	   28f8	UART_HAL.elf
 Finished building: default.size.stdout
  
+Finished building: UART_HAL.bin
+Finished building: UART_HAL.hex
+ 
+ 
+Finished building: UART_HAL.list
+ 
 
-20:35:23 Build Finished. 0 errors, 0 warnings. (took 504ms)
+21:37:38 Build Finished. 0 errors, 0 warnings. (took 3s.310ms)
 
